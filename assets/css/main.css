@@ -3327,3 +3327,12 @@ input, select, textarea {
 			}
 
 		}
+
+/* for map */
+    .map-highlight:hover {
+      fill: #D01A20 !important;
+    }
+
+
+
+
