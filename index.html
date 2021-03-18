@@ -213,24 +213,24 @@
                                <br /><br /><br />
                                <hr />
                                <h2>Form</h2>
-                               <form>
+                               <form action = "form.php" method = "post">
                                    <div class="row gtr-uniform">
                                            
                                                <div class="col-6 col-12-small">
-                                                   <input type="checkbox" name="Spiral" id="Spiral"/>
+                                                   <input type="checkbox" name="Spiral" id="Spiral" value = "1"/>
                                                    <label for="Spiral">Spiral</label>
                                                </div>
                                                <div class="col-6 col-12-small">
-                                                   <input type="checkbox" name="Ground" id="Ground"/>
+                                                   <input type="checkbox" name="Ground" id="Ground" value = "1"/>
                                                    <label for="Ground">Ground</label>
                                                </div>
                                                <div class="col-6 col-12-small">
-                                                   <input type="checkbox" name="WH" id="WH"/>
+                                                   <input type="checkbox" name="WH" id="WH" value = "1"/>
                                                    <label for="WH">Wast Hills</label>
                                                </div>
                                                <div class="col-12">
                                                <ul class="actions">
-                                                           <li><input  onclick="chooseyouradventure();" type="submit" value="Submit" class="primary"/></li>
+                                                           <li><input type="submit" value="Submit" name = "send" class="primary"/></li>
                                                         
                                                </ul>
                                    </div>
