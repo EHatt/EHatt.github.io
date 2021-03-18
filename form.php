@@ -8,3 +8,6 @@ if($_POST['Spiral'] == 1 & $_POST['Ground']  == 1){
 else {
     header("'https://ehatt.github.io/WH.html");
 }
+
+</body>
+</html>
